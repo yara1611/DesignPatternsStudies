@@ -1,0 +1,18 @@
+Example:
+- WeatherData object that updates three displays for current conditions, weather stats and a forecast
+- WeatherData class has getter methods for the measurements
+- changed() called any time new measurement is available
+- implement 3 displays that are updated each time a new measurement is available
+Newspaper publisher example:
+- when u subscribe, everytime a new edition comes out u get it
+- unsubscribe u dont
+- publisher -> subject, subscriber->observer
+Defintion:
+- defines a one-to-many dependency between objects so that when one object changes state, all of its dependants are updated
+- subject (interface)
+- observer (interface)
+- concreteSubject
+- concreteObject
+- provides an object design where objs and subjs are loosely coupled
+- can be used for actionListener on a button for example
+- there's a java builtin observer pattern that can be used.

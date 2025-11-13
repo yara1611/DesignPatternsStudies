@@ -1,7 +1,10 @@
-package org.example.StrategyPattern;
+package org.example.StrategyPattern.Objects;
+
+import org.example.StrategyPattern.Behavior.FlyWithWings;
+import org.example.StrategyPattern.Behavior.Quack;
 
 //IS-A Duck
-public class MallardDuck extends Duck{
+public class MallardDuck extends Duck {
     public MallardDuck(){
         quackBehavior=new Quack();
         flyBehavior = new FlyWithWings();

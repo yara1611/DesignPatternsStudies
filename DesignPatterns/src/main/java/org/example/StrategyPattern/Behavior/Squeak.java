@@ -1,4 +1,4 @@
-package org.example.StrategyPattern;
+package org.example.StrategyPattern.Behavior;
 
 public class Squeak implements QuackBehavior{
     @Override

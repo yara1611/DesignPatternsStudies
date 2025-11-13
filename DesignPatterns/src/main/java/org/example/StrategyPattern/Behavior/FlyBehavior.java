@@ -1,4 +1,4 @@
-package org.example.StrategyPattern;
+package org.example.StrategyPattern.Behavior;
 
 //HAS-A behavior
 public interface FlyBehavior {
