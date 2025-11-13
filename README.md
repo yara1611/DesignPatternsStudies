@@ -1,0 +1,1 @@
+Design Pattern Studies based on my reread of Head First Design Patterns
